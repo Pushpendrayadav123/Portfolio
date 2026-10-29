@@ -79,7 +79,7 @@ public/               # Static public assets
 - Email: [pushpendrajau8318@gmail.com](mailto:pushpendrajau8318@gmail.com)
 - GitHub: [Pushpendrayadav123](https://github.com/Pushpendrayadav123)
 - LinkedIn: [Pushpendra Yadav](https://www.linkedin.com/in/pushpendra-yadav-780467244/)
-
+- portfolio live link: https://portfolio-pushpendra.vercel.app/
 ## License
 
 This project is intended as a personal portfolio. All rights reserved © Pushpendra Yadav.
