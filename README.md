@@ -8,6 +8,7 @@ The site includes:
 
 - A polished home page with availability and experience highlights
 - An About page covering experience, strengths, and core tools
+- A Skills page grouping frontend, backend, and development tools
 - A Contact page with GitHub, LinkedIn, and email links
 - A contact form that opens the visitor's default email client with the completed message
 - Responsive desktop and mobile navigation
@@ -26,6 +27,7 @@ The site includes:
 | --- | --- |
 | `/` or `/home` | Home page |
 | `/about` | Background, strengths, and tools |
+| `/skills` | Frontend, backend, and development tools |
 | `/contact` | Contact details and message form |
 
 ## Getting started
