@@ -9,6 +9,28 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
+    title: "Mistvale Tea Store Point",
+    type: "E-commerce storefront",
+    summary:
+      "A responsive storefront prototype for Mistvale Tea Co., featuring product browsing, search, category filters, sorting, and quick-view product details.",
+    impact:
+      "Demonstrates a complete front-end shopping flow with a local-storage cart, coupon entry, and simulated delivery estimates.",
+    stack: ["HTML", "CSS", "JavaScript", "Local Storage"],
+    liveUrl: "https://mistvale-tea-storefront.vercel.app/",
+    codeUrl: "https://github.com/Pushpendrayadav123/mistvale-tea-storefront",
+  },
+  {
+    title: "FastAPI Employee CRUD",
+    type: "Full-stack application",
+    summary:
+      "An employee management application with a FastAPI backend, a React frontend, and a MySQL database.",
+    impact:
+      "Demonstrates full-stack CRUD workflows and containerized deployment with Docker Compose.",
+    stack: ["Python", "FastAPI", "React", "MySQL", "Docker"],
+    liveUrl: "#",
+    codeUrl: "https://github.com/Pushpendrayadav123/fastapi-crud",
+  },
+  {
     title: "Portfolio Website",
     type: "Featured project",
     summary:
