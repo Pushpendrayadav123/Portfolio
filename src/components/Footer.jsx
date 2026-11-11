@@ -1,5 +1,6 @@
 import { Code, Globe, Heart, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { FaGithub,FaLinkedinIn } from "react-icons/fa";
 
 const navigation = [
   { name: "Home", to: "/" },
@@ -32,7 +33,7 @@ function Footer() {
                 aria-label="GitHub profile"
                 className="rounded-lg border border-slate-700 p-2.5 text-slate-300 transition hover:border-blue-400 hover:bg-slate-900 hover:text-blue-400"
               >
-                <Code size={19} />
+                <FaGithub size={19} />
               </a>
               <a
                 href="https://www.linkedin.com/in/pushpendra-yadav-780467244"
@@ -41,15 +42,16 @@ function Footer() {
                 aria-label="LinkedIn profile"
                 className="rounded-lg border border-slate-700 p-2.5 text-slate-300 transition hover:border-blue-400 hover:bg-slate-900 hover:text-blue-400"
               >
-                <Globe size={19} />
+                <FaLinkedinIn size={19} />
               </a>
-              <a
-                href="pushpendrajau8318@gmail.com"
-                aria-label="Send an email"
+              <Link
+                to="/contact"
+                //href="pushpendrajau8318@gmail.com"
+                //aria-label="Send an email"
                 className="rounded-lg border border-slate-700 p-2.5 text-slate-300 transition hover:border-blue-400 hover:bg-slate-900 hover:text-blue-400"
               >
                 <Mail size={19} />
-              </a>
+              </Link>
             </div>
           </div>
 

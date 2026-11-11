@@ -1,12 +1,12 @@
 import { useState } from "react";
 import {
   ArrowUpRight,
-  BriefcaseBusiness,
-  Code2,
   Mail,
   MapPin,
   Send,
 } from "lucide-react";
+import { FaGithub,FaLinkedin } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const contactEmail = "pushpendrajau8318@gmail.com";
 
@@ -82,7 +82,7 @@ function Contact() {
                   aria-label="GitHub profile"
                   className="rounded-lg border border-slate-700 p-3 text-slate-300 transition hover:border-blue-400 hover:text-blue-400"
                 >
-                  <Code2 size={20} />
+                  <FaGithub size={20} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/pushpendra-yadav-780467244/"
@@ -91,7 +91,7 @@ function Contact() {
                   aria-label="LinkedIn profile"
                   className="rounded-lg border border-slate-700 p-3 text-slate-300 transition hover:border-blue-400 hover:text-blue-400"
                 >
-                  <BriefcaseBusiness size={20} />
+                  <FaLinkedinIn size={20} />
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@ function Contact() {
                   name="name"
                   value={form.name}
                   onChange={updateField}
-                  placeholder="Jane Smith"
+                  placeholder="NAME"
                   className="mt-2 w-full rounded-lg border border-slate-700 bg-slate-950 px-4 py-3 text-white outline-none placeholder:text-slate-600 focus:border-blue-500"
                 />
               </label>
